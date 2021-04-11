@@ -1,0 +1,268 @@
+* {
+	margin: 0;
+	padding: 0;	
+ }
+
+a{
+	text-decoration: none;
+}
+
+h3 {
+	position: absolute;
+	margin: 0 800px;
+}
+
+body {
+	margin: 8% 5%;
+	background: white;
+	border-radius: 12px 12px 10px 10px;
+	box-shadow: 0 0 25px;
+	background-image: url(image/39.jpg);
+	min-width: 1240px;
+ }
+
+	/*---HEADER---*/
+
+
+header{
+	display: flex;
+	background: #FFF;
+	height: 160px;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+
+}
+
+.logo{
+	margin: 1px 0 1px 5vw;
+	width: 15%;
+}
+
+.logo_img{
+	height: 150px;
+}
+
+nav{
+	height: 100px;
+	display: flex;
+	width: 78%;
+	margin-right: 3%;
+	padding: 50px 20px;
+}
+
+nav a{
+	color: #000;
+	font-size: 30px;
+	margin: 22px auto;
+	padding: 12px 0.5vw;
+}
+
+nav a:hover{
+	background: #B0C4DE;
+	border-radius: 30px;
+}
+
+/*---MAIN---*/
+
+main{
+	background: #FFF;
+	width: 100%;
+	height: auto;
+	min-height: 700px;
+}
+
+.main{
+	background: #FFF;
+	height: auto;
+	min-height: 700px;
+	width: 100%;
+}
+
+.main h1{
+	font-size: 80px;
+	text-align: center;
+}
+
+.main p{
+	font-size: 40px;
+	text-align: center;
+}
+
+/*ГЛАВНАЯ*/
+
+.me img{
+	text-align: center;
+	width: 70vw;
+	min-width: 960px;  
+	margin: 20px;
+	border-radius: 10px;
+}
+
+/*УКРАШЕНИЯ НА ЗАКАЗ*/
+
+.blue {
+	background: #B0C4DE;
+	min-height: 200px;
+}
+
+.r1 img{
+	width: 40vw;
+	min-width: 560px;
+}
+
+.bock p button {
+	text-align: center;
+}
+
+.bock {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.to {
+	background: #F5F9FF;
+	border:  #F2E1CD;
+	border-radius: 100px;
+    float: center;
+	color: #5A0F0F;
+	text-align: center;	
+	font-size: 25px;
+	display: block;
+	width: 700px;
+	height: 100px;
+	margin: 5px 0 ;
+}
+
+button {
+	background: #B0C4DE;
+	color: #FFF;
+	border-radius: 80px;
+	margin-top: 15px;
+	padding: 5px;
+	border: none;
+	font-size: 25px;
+	width: 400px;
+	height: 100px;
+}
+
+/*ДОСТАВКА И ОПЛАТА*/
+
+.dostavka{
+	display: -webkit-flex;
+	display: flex;
+	width: 80vw;
+	min-width: 1240px;
+	margin: 80px auto;
+ }
+
+.d1 img {
+	width: 35vw;
+	min-width: 502px;
+}
+
+.d2{
+	background: #fff;
+	margin: 10px  auto;
+	padding: 30px;
+	height: 200px;
+	width: 35vw;
+	min-width: 620px;
+	text-align: center;
+}
+
+.dostavka p {
+	font-size: 1.7vw;
+}
+
+.block2 {
+	display: block;
+	width: 80vw;
+	min-width: 1240px;
+	margin: 180px auto;
+}
+.number {
+	padding: 0 15px;
+    width: 1.5vw;
+    height: 5vh;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    transform: translateY(-50%);
+    border-radius: 70px;
+    margin: 50px;
+}
+
+
+
+.titl {
+	display: block;
+	margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.dost img{
+	width: 25vw;
+	border-radius: 30px;
+}
+/*ЖУРНАЛ*/
+
+.zh img{ 
+	margin: 30px;
+	text-align: center;		
+	height: 600px;
+	width: 1000px;
+	position: relative;
+}
+
+/*ИЗДЕЛИЯ*/
+
+.block {
+	display: -webkit-flex;
+	display: flex ;
+	width: 80vw;
+	min-width: 1240px;
+	margin: 180px auto;
+}
+
+.bl1 img {
+	width: 35vw;
+	min-width: 502px;
+
+}
+.bl2{
+	background: #fff;
+	margin: 50px  auto;
+	padding: 30px;
+	height: 200px;
+	width: 35vw;
+	min-width: 620px;
+	text-align: center;
+}
+
+.block p {
+	font-size: 1.7vw;
+}
+
+/*ПОДДЕРЖКА*/
+
+.po1 img {
+	margin: 100px 400px;
+	height: 500px;
+}
+
+/*------FOOTER------*/
+
+
+footer{
+	height: 100px;
+	width: 100%;
+	background: #FFF;
+}
+
+footer h2{
+	padding-top: 10px;
+	text-align: center;
+}
